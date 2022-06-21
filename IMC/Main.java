@@ -12,7 +12,7 @@ public class Main {
     alturaEmMetros = sc.nextFloat();
     resultado = pesoEmQuilogramas / (float) Math.pow((float) alturaEmMetros, 2);
     String msg = ((resultado >= 20 && resultado <= 25) ? "Peso Ideal" : "Fora do peso ideal");
-    System.out.printf("IMC = %f\n", resultado);
+    System.out.printf("IMC = %.2f\n", resultado);
     System.out.println(msg);
   }
 }
