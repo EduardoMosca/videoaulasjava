@@ -97,7 +97,7 @@ public class Main {
 
     String path = "files\\contas.txt";
 
-    armazenarContas(armazenaContas, path);
+    // armazenarContas(armazenaContas, path);
     guardaContas = lerContas(path);
     for (var i : guardaContas) {
       System.out.println("Conta: " + i.getCliente() + "\t" + "Saldo: " + i.getSaldo());
